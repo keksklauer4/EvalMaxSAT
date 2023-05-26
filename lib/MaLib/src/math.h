@@ -5,11 +5,11 @@
 
 namespace MaLib {
 
-    unsigned int pow2(unsigned int p) {
+    inline unsigned int pow2(unsigned int p) {
         return 1 << p;
     }
 
-    unsigned int bin2int(const std::vector<bool> &bin) {
+    inline unsigned int bin2int(const std::vector<bool> &bin) {
         unsigned int result = 0;
 
         for(unsigned int i=0; i<bin.size(); i++) {

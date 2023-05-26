@@ -2,6 +2,8 @@
 
 # EvalMaxSAT
 
+Note that this is just a fork. I inlined two functions to avoid ODR violations when including the project.
+
 Paper link: [A Short Description of the Solver EvalMaxSAT](http://florent.avellaneda.free.fr/dl/EvalMaxSAT.pdf)
 
 ## Introduction
